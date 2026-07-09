@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+title: Fellowship at Los Alamos National Laboratory
+date: 2024-06-01 09:00:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Joined Los Alamos National Laboratory as a Fellowship Student, working on QAOA-based warm-start optimizations for the Quantum Linear System Problem on JuliQAOA.

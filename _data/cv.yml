@@ -1,189 +1,247 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Hrushikesh Pramod Patil
+  label: Ph.D. Candidate, Quantum Computing
+  email: hpatil2@ncsu.edu
+  location: Raleigh, NC
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Ph.D. candidate in Computer Engineering specializing in quantum information science, with expertise in quantum algorithms and applications, quantum error correction, mitigation and machine learning. Skilled in Python and C++, high-performance numerical simulation, and object-oriented software development for quantum and hybrid quantum-classical workflows.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: hrushikesh890
     - network: LinkedIn
-      username: example
+      username: hrushikesh-patil-qc
+    - network: Google Scholar
+      username: ZJe4U4AAAAAJ
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: ""
+    city: Raleigh
+    region: North Carolina
+    postalCode: ""
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: North Carolina State University
+        location: Raleigh, NC
+        area: Computer Engineering, Specialization in Quantum Computing
+        studyType: Ph.D.
+        start_date: 2021-08-01
+        end_date: 2026-05-01
+        score: "4.0/4.0"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Expected May 2026.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Stony Brook University
+        location: Stony Brook, NY
+        area: Electrical Engineering
+        studyType: M.S.
+        start_date: 2019-08-01
+        end_date: 2021-05-01
+        score: "3.79/4.0"
+
+      - institution: Pune Institute of Computer Technology
+        location: Pune, India
+        area: Electronics and Telecommunications
+        studyType: B.E.
+        start_date: 2014-08-01
+        end_date: 2018-05-01
+        score: "3.64/4.0"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: SRI
+        position: Quantum Benchmarking Intern
+        location: Menlo Park, CA
+        start_date: 2025-06-01
+        end_date: 2025-08-01
+        summary: Developed the Quantum Reinforcement Learning benchmark for the QED-C Application Oriented Benchmark suite.
         highlights:
-          - Relativity
-          - Description 2.
+          - Demonstrated the need for co-development of high performance computing (HPC) and quantum computing control systems stacks for hybrid algorithms.
+          - Collaborated on methods to benchmark dynamic (mid-circuit measurement) circuits and applications. Pre-print available.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Los Alamos National Laboratory
+        position: Fellowship Student
+        location: Los Alamos, NM
+        start_date: 2024-06-01
+        end_date: 2024-08-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - Collaborated on QAOA-based Quantum Linear System Problem warm-start optimizations on JuliQAOA.
+          - Reduced runtime of QAOA Quantum Linear System Problem by 33% by instrumenting warm-started global optimization.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Research Experience:
+      - company: North Carolina State University
+        position: Graduate Research Assistant, Quantum Error Mitigation, Correction and Characterization Strategies
+        location: Raleigh, NC
+        start_date: 2022-03-01
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Improved error rate by 88% using reliability-aware error mitigation strategies (Reliability-based Zero Noise Extrapolation).
+          - Integrated circuit cutting and knitting techniques with error mitigation to enhance circuit fidelity (presented at QCE 2023).
+          - Designed a novel unsupervised-learning-based quantum error mitigation method with machine-learning-based noise characterization, improving fidelity by 1.45x across algorithms (presented at IEEE QCE 2025, code on GitHub).
+          - Collaborated on benchmarking fidelity estimation and noise characterization techniques, improving mitigation performance by up to 7.97x (presented at QCE 2025).
+          - Currently combining quantum error mitigation and error correction to enhance fault tolerance, and exploring improvements to the magic state cultivation protocol using code-switch protocols.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Stony Brook University
+        position: Graduate Research Assistant, Effect of Noise on Quantum Linear Solvers
+        location: Stony Brook, NY
+        start_date: 2020-06-01
+        end_date: 2021-05-01
+        highlights:
+          - Reduced resource use in the Variational Quantum Linear Solver by 67% using dynamic ansatz and noise-aware optimization.
+          - Published in Physical Review A; presented at an invited session at INFORMS 2022.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Efficient Magic State Factory Via Transversal Non-Clifford Gate
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Ian Chen
+          - Hrushikesh P. Patil
+          - Huiyang Zhou
+          - Andrew Sornborger
+        publisher: arXiv
+        releaseDate: 2026-01-01
+        url: https://arxiv.org/abs/2606.16199
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Q-Cluster: Quantum Error Mitigation Through Noise-Aware Unsupervised Learning"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Hrushikesh P. Patil
+          - Dror Baron
+          - Huiyang Zhou
+        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE)
+        releaseDate: 2025-01-01
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Benchmarking Fidelity Metrics of Quantum Computers
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Swayamdipta Mohapatra
+          - Hrushikesh P. Patil
+          - Jinglei Liu
+          - Huiyang Zhou
+        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE)
+        releaseDate: 2025-01-01
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: Platform-Agnostic Modular Architecture for Quantum Benchmarking
+        authors:
+          - Niyati Patel
+          - Anup Giri
+          - Hrushikesh P. Patil
+          - Nick Siekierski
+          - Aritra Chatterjee
+          - Sonika Johri
+        publisher: arXiv
+        releaseDate: 2025-01-01
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: "Qubit-Wise Majority Vote: Maximum Likelihood Quantum Error Mitigation for Algorithms with a Single Correct Output"
+        authors:
+          - Dror Baron
+          - Hrushikesh P. Patil
+          - Huiyang Zhou
+        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE)
+        releaseDate: 2024-01-01
 
-      - name: English
-        summary: "Fluent"
+      - title: Enhancing Virtual Distillation with Circuit Cutting for Quantum Error Mitigation
+        authors:
+          - Peiyi Li
+          - Ji Liu
+          - Hrushikesh P. Patil
+          - Paul Hovland
+          - Huiyang Zhou
+        publisher: IEEE International Conference on Computer Design (ICCD)
+        releaseDate: 2023-01-01
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Folding-Free ZNE: A Comprehensive Quantum Zero-Noise Extrapolation Approach for Mitigating Depolarizing and Decoherence Noise"
+        authors:
+          - Hrushikesh P. Patil
+          - Peiyi Li
+          - Ji Liu
+          - Huiyang Zhou
+        publisher: IEEE International Conference on Quantum Computing and Engineering (QCE)
+        releaseDate: 2023-01-01
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - title: Variational Quantum Linear Solver with a Dynamic Ansatz
+        authors:
+          - Hrushikesh P. Patil
+          - Y. Wang
+          - Predrag S. Krstić
+        publisher: Physical Review A
+        releaseDate: 2022-01-01
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: Effect of Matrix Sparsity and Quantum Noise on Quantum Random Walk Linear Solvers
+        authors:
+          - Bo Wu
+          - Hrushikesh P. Patil
+          - Predrag S. Krstić
+        publisher: arXiv
+        releaseDate: 2022-01-01
+        url: https://arxiv.org/abs/2205.14180
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Implementing Steane Code and Quantum Reed-Muller Code in Deltakit
+        summary: Extending the CSS code framework for the Steane code and qRM code as part of an open-source contribution at NCSU.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Code in progress: github.com/Deltakit/deltakit/issues/132"
+        start_date: 2025-01-01
+        end_date: present
+
+      - name: Quantum Kernel Methods for Graph-Structured Data
+        summary: Implemented a Quantum Evolving Kernel for graph classification in drug discovery for neutral-atom qubit arrays. Winner, QHack 2023 Amazon Braket Challenge.
+        highlights:
+          - Utilized CAFQA initialization for accelerated convergence.
+          - Featured on the AWS blog.
+        start_date: 2023-02-01
+        end_date: 2023-02-01
+
+      - name: CUDA Implementation of Quantum Gates
+        summary: Simulated quantum gates using CUDA as a course project at NCSU.
+        highlights:
+          - "Observed 5x performance improvement using cudaMalloc/cudaMemcpy versus cudaMallocManaged."
+          - "Code: github.com/hrushikesh890/Cuda_Quantum_Gate"
+        start_date: 2023-01-01
+        end_date: 2023-01-01
+
+      - name: Acceleration of LRCN Networks Using FPGA
+        summary: Achieved 8x acceleration of LRCN networks via firmware development on the miniZed FPGA as a course project at Stony Brook University.
+        highlights:
+          - Designed the hardware and software algorithm to accelerate the LSTM part of the LRCN network.
+        start_date: 2020-05-01
+        end_date: 2020-05-01
+
+    Skills:
+      - name: Languages
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, C, C++, Julia, CUDA"
+
+      - name: Libraries & Tools
+        level: ""
+        icon: fa-solid fa-toolbox
+        keywords: "Qiskit, Cirq, Stim, PennyLane, Mitiq, CUDA-Q, NumPy, JAX, PyTorch, OpenMP, Git, matplotlib, GPGPUSim, LSF"
+
+      - name: Expertise
+        level: ""
+        icon: fa-solid fa-atom
+        keywords: "Quantum Error Correction, Quantum Error Mitigation, Error Characterization, Variational Quantum Algorithms, Circuit Cutting and Knitting, GPU Programming and Architecture, Parallel Programming, High Performance Computing, Operating Systems, CV-DV Quantum Systems"
+
+    Activities:
+      - name: Mentorship
+        summary: Currently providing mentorship in research and development to high school and undergraduate students.
+      - name: Institute for Robust Quantum Simulation
+        summary: Former Student-Postdoc Council member.
+      - name: Peer Review
+        summary: Reviewer for Nature Scientific Reports, IEEE Quantum Week, and IEEE Transactions on Quantum Engineering.
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Huiyang Zhou
+        icon: fa-solid fa-envelope
+        reference: hzhou@ncsu.edu
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Dr. Dror Baron
+        icon: fa-solid fa-envelope
+        reference: dzbaron@ncsu.edu
+
+      - name: Dr. Siyuan Niu
+        icon: fa-solid fa-envelope
+        reference: siyuan.niu@ucf.edu
+
+      - name: Dr. Manas Sajjan
+        icon: fa-solid fa-envelope
+        reference: msajjan@ncsu.edu
