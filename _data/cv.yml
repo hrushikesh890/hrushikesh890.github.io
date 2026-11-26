@@ -1,10 +1,10 @@
 cv:
   name: Hrushikesh Pramod Patil
-  label: Ph.D. Candidate, Quantum Computing
+  label: Postdoctoral Research Scholar, Quantum Computing
   email: hpatil2@ncsu.edu
   location: Raleigh, NC
   image: ""
-  summary: Ph.D. candidate in Computer Engineering specializing in quantum information science, with expertise in quantum algorithms and applications, quantum error correction, mitigation and machine learning. Skilled in Python and C++, high-performance numerical simulation, and object-oriented software development for quantum and hybrid quantum-classical workflows.
+  summary: Postdoctoral Research Scholar in Electrical and Computer Engineering at NC State University (Ph.D., Computer Engineering, 2026), working on fault-tolerant quantum computing, quantum error correction and mitigation, quantum machine learning, and open and non-equilibrium quantum systems. Skilled in Python and C++, high-performance numerical simulation, and object-oriented software development for quantum and hybrid quantum-classical workflows.
 
   social_networks:
     - network: GitHub
@@ -31,7 +31,8 @@ cv:
         end_date: 2026-05-01
         score: "4.0/4.0"
         highlights:
-          - Expected May 2026.
+          - "Dissertation: Reliable Quantum Computation From NISQ to FTQC Era."
+          - "Advisor: Dr. Huiyang Zhou."
 
       - institution: Stony Brook University
         location: Stony Brook, NY
@@ -50,6 +51,27 @@ cv:
         score: "3.64/4.0"
 
     Experience:
+      - company: North Carolina State University
+        position: Postdoctoral Research Scholar, Department of Electrical and Computer Engineering
+        location: Raleigh, NC
+        start_date: 2026-06-01
+        end_date: present
+        highlights:
+          - Quantum information science group of Dr. Sabre Kais.
+          - Working on fault-tolerant quantum computing (magic state cultivation, lattice surgery, resource estimation), quantum error correction, and simulation of open and non-equilibrium quantum systems.
+
+      - company: North Carolina State University
+        position: Graduate Research Assistant, Quantum Error Mitigation, Correction and Characterization Strategies
+        location: Raleigh, NC
+        start_date: 2022-03-01
+        end_date: 2026-05-01
+        highlights:
+          - Improved error rate by 88% using reliability-aware error mitigation strategies (Reliability-based Zero Noise Extrapolation).
+          - Integrated circuit cutting and knitting techniques with error mitigation to enhance circuit fidelity (presented at QCE 2023).
+          - Designed a novel unsupervised-learning-based quantum error mitigation method with machine-learning-based noise characterization, improving fidelity by 1.45x across algorithms (presented at IEEE QCE 2025, code on GitHub).
+          - Collaborated on benchmarking fidelity estimation and noise characterization techniques, improving mitigation performance by up to 7.97x (presented at QCE 2025).
+          - Combined quantum error mitigation and error correction to enhance fault tolerance, and explored improvements to the magic state cultivation protocol using code-switch protocols.
+
       - company: SRI
         position: Quantum Benchmarking Intern
         location: Menlo Park, CA
@@ -69,19 +91,6 @@ cv:
           - Collaborated on QAOA-based Quantum Linear System Problem warm-start optimizations on JuliQAOA.
           - Reduced runtime of QAOA Quantum Linear System Problem by 33% by instrumenting warm-started global optimization.
 
-    Research Experience:
-      - company: North Carolina State University
-        position: Graduate Research Assistant, Quantum Error Mitigation, Correction and Characterization Strategies
-        location: Raleigh, NC
-        start_date: 2022-03-01
-        end_date: present
-        highlights:
-          - Improved error rate by 88% using reliability-aware error mitigation strategies (Reliability-based Zero Noise Extrapolation).
-          - Integrated circuit cutting and knitting techniques with error mitigation to enhance circuit fidelity (presented at QCE 2023).
-          - Designed a novel unsupervised-learning-based quantum error mitigation method with machine-learning-based noise characterization, improving fidelity by 1.45x across algorithms (presented at IEEE QCE 2025, code on GitHub).
-          - Collaborated on benchmarking fidelity estimation and noise characterization techniques, improving mitigation performance by up to 7.97x (presented at QCE 2025).
-          - Currently combining quantum error mitigation and error correction to enhance fault tolerance, and exploring improvements to the magic state cultivation protocol using code-switch protocols.
-
       - company: Stony Brook University
         position: Graduate Research Assistant, Effect of Noise on Quantum Linear Solvers
         location: Stony Brook, NY
@@ -94,11 +103,11 @@ cv:
     Publications:
       - title: Efficient Magic State Factory Via Transversal Non-Clifford Gate
         authors:
-          - Ian Chen
+          - I-Chi Chen
           - Hrushikesh P. Patil
           - Huiyang Zhou
           - Andrew Sornborger
-        publisher: arXiv
+        publisher: "arXiv:2606.16199 (under review at npj Quantum Information)"
         releaseDate: 2026-01-01
         url: https://arxiv.org/abs/2606.16199
 
@@ -174,6 +183,15 @@ cv:
         releaseDate: 2022-01-01
         url: https://arxiv.org/abs/2205.14180
 
+    Talks:
+      - bullet: "**Magic State Cultivation with Lattice Surgery.** Speaker (40-minute expert talk), 2026 Southeast Quantum Workshop (SEQW), NC State University, Raleigh, NC, Oct 9-11, 2026."
+
+    Awards:
+      - title: ACCESS-CI Compute Allocation
+        summary: "Three thrusts: peaked quantum circuits, non-equilibrium Bose-Fermi-Hubbard dynamics, and quantum error correction simulation."
+      - title: IQM Quantum Hardware Access
+        summary: Awarded quantum hardware access proposal.
+
     Projects:
       - name: Implementing Steane Code and Quantum Reed-Muller Code in Deltakit
         summary: Extending the CSS code framework for the Steane code and qRM code as part of an open-source contribution at NCSU.
@@ -222,12 +240,12 @@ cv:
         keywords: "Quantum Error Correction, Quantum Error Mitigation, Error Characterization, Variational Quantum Algorithms, Circuit Cutting and Knitting, GPU Programming and Architecture, Parallel Programming, High Performance Computing, Operating Systems, CV-DV Quantum Systems"
 
     Activities:
-      - name: Mentorship
-        summary: Currently providing mentorship in research and development to high school and undergraduate students.
-      - name: Institute for Robust Quantum Simulation
-        summary: Former Student-Postdoc Council member.
-      - name: Peer Review
-        summary: Reviewer for Nature Scientific Reports, IEEE Quantum Week, and IEEE Transactions on Quantum Engineering.
+      - label: Mentorship
+        details: Currently providing mentorship in research and development to high school and undergraduate students.
+      - label: Institute for Robust Quantum Simulation
+        details: Former Student-Postdoc Council member.
+      - label: Peer Review
+        details: Reviewer for Scientific Reports (Nature Portfolio), IEEE Quantum Week (QCE), and IEEE Transactions on Quantum Engineering.
 
     References:
       - name: Dr. Huiyang Zhou
